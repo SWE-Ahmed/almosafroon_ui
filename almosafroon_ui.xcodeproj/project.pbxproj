@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C086A4280EF400005E9953 /* almosafroon_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C086A3280EF400005E9953 /* almosafroon_uiApp.swift */; };
+		33C086A6280EF400005E9953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C086A5280EF400005E9953 /* ContentView.swift */; };
+		33C086A8280EF403005E9953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C086A7280EF403005E9953 /* Assets.xcassets */; };
+		33C086AB280EF403005E9953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C086AA280EF403005E9953 /* Preview Assets.xcassets */; };
+		33C086B5280EF982005E9953 /* AddPostButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C086B4280EF982005E9953 /* AddPostButton.swift */; };
+		33C086B7280EFB2C005E9953 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C086B6280EFB2C005E9953 /* ProfileView.swift */; };
+		33C086B9280F446D005E9953 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C086B8280F446D005E9953 /* FavoriteButton.swift */; };
+		33C086BB280F4666005E9953 /* TripsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C086BA280F4666005E9953 /* TripsButton.swift */; };
+		33C086BD280F499A005E9953 /* NewTripButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C086BC280F499A005E9953 /* NewTripButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33C086A0280EF3FF005E9953 /* almosafroon_ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = almosafroon_ui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C086A3280EF400005E9953 /* almosafroon_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = almosafroon_uiApp.swift; sourceTree = "<group>"; };
+		33C086A5280EF400005E9953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33C086A7280EF403005E9953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33C086AA280EF403005E9953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33C086B4280EF982005E9953 /* AddPostButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostButton.swift; sourceTree = "<group>"; };
+		33C086B6280EFB2C005E9953 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		33C086B8280F446D005E9953 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		33C086BA280F4666005E9953 /* TripsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsButton.swift; sourceTree = "<group>"; };
+		33C086BC280F499A005E9953 /* NewTripButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33C0869D280EF3FF005E9953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33C08697280EF3FF005E9953 = {
+			isa = PBXGroup;
+			children = (
+				33C086A2280EF3FF005E9953 /* almosafroon_ui */,
+				33C086A1280EF3FF005E9953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33C086A1280EF3FF005E9953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C086A0280EF3FF005E9953 /* almosafroon_ui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33C086A2280EF3FF005E9953 /* almosafroon_ui */ = {
+			isa = PBXGroup;
+			children = (
+				33C086B3280EF5D2005E9953 /* Components */,
+				33C086B1280EF54E005E9953 /* Views */,
+				33C086A3280EF400005E9953 /* almosafroon_uiApp.swift */,
+				33C086A7280EF403005E9953 /* Assets.xcassets */,
+				33C086A9280EF403005E9953 /* Preview Content */,
+			);
+			path = almosafroon_ui;
+			sourceTree = "<group>";
+		};
+		33C086A9280EF403005E9953 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33C086AA280EF403005E9953 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33C086B1280EF54E005E9953 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33C086A5280EF400005E9953 /* ContentView.swift */,
+				33C086B6280EFB2C005E9953 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33C086B3280EF5D2005E9953 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				33C086B4280EF982005E9953 /* AddPostButton.swift */,
+				33C086B8280F446D005E9953 /* FavoriteButton.swift */,
+				33C086BA280F4666005E9953 /* TripsButton.swift */,
+				33C086BC280F499A005E9953 /* NewTripButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33C0869F280EF3FF005E9953 /* almosafroon_ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C086AE280EF403005E9953 /* Build configuration list for PBXNativeTarget "almosafroon_ui" */;
+			buildPhases = (
+				33C0869C280EF3FF005E9953 /* Sources */,
+				33C0869D280EF3FF005E9953 /* Frameworks */,
+				33C0869E280EF3FF005E9953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = almosafroon_ui;
+			productName = almosafroon_ui;
+			productReference = 33C086A0280EF3FF005E9953 /* almosafroon_ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33C08698280EF3FF005E9953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					33C0869F280EF3FF005E9953 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 33C0869B280EF3FF005E9953 /* Build configuration list for PBXProject "almosafroon_ui" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33C08697280EF3FF005E9953;
+			productRefGroup = 33C086A1280EF3FF005E9953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33C0869F280EF3FF005E9953 /* almosafroon_ui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33C0869E280EF3FF005E9953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C086AB280EF403005E9953 /* Preview Assets.xcassets in Resources */,
+				33C086A8280EF403005E9953 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33C0869C280EF3FF005E9953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C086B7280EFB2C005E9953 /* ProfileView.swift in Sources */,
+				33C086A6280EF400005E9953 /* ContentView.swift in Sources */,
+				33C086BB280F4666005E9953 /* TripsButton.swift in Sources */,
+				33C086B5280EF982005E9953 /* AddPostButton.swift in Sources */,
+				33C086BD280F499A005E9953 /* NewTripButton.swift in Sources */,
+				33C086B9280F446D005E9953 /* FavoriteButton.swift in Sources */,
+				33C086A4280EF400005E9953 /* almosafroon_uiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33C086AC280EF403005E9953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33C086AD280EF403005E9953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33C086AF280EF403005E9953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"almosafroon_ui/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F34JZL3M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "almohammed.almosafroon-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33C086B0280EF403005E9953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"almosafroon_ui/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F34JZL3M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "almohammed.almosafroon-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33C0869B280EF3FF005E9953 /* Build configuration list for PBXProject "almosafroon_ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C086AC280EF403005E9953 /* Debug */,
+				33C086AD280EF403005E9953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C086AE280EF403005E9953 /* Build configuration list for PBXNativeTarget "almosafroon_ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C086AF280EF403005E9953 /* Debug */,
+				33C086B0280EF403005E9953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33C08698280EF3FF005E9953 /* Project object */;
+}
